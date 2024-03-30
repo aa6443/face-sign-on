@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+/* app.css */
+
+/* Style for the header */
+header {
+  background-color: #333; /* Example background color */
+  color: #fff; /* Example text color */
+  padding: 10px; /* Example padding */
+  text-align: right; /* Move elements to the right */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Style for the navigation links */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul li {
+  display: inline-block; /* Display elements inline */
+  margin-right: 10px; /* Example spacing between links */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul li a {
+  color: #fff; /* Example text color */
+  text-decoration: none;
+  padding: 5px 10px; /* Example padding */
+  border: 1px solid #fff; /* Example border */
+  border-radius: 5px; /* Example border radius */
 }
 
-.App-link {
-  color: #61dafb;
+/* Style for the main content */
+main {
+  padding: 20px; /* Example padding */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Style for the footer */
+footer {
+  background-color: #333; /* Example background color */
+  color: #fff; /* Example text color */
+  padding: 10px; /* Example padding */
+  text-align: right; /* Move elements to the right */
 }
